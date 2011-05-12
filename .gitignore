@@ -1,0 +1,11 @@
+Icon?
+.DS_Store?
+.DS_Store
+Thumbs.db
+
+*.jar
+*.rar
+*.tar
+*.zip
+*.log
+*.sql
