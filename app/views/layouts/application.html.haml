@@ -1,0 +1,15 @@
+!!!
+%html
+  %head
+    %title David A. Windham
+    = stylesheet_link_tag    "application"
+    = javascript_include_tag "application"
+    = csrf_meta_tags
+  %body
+    #wrap
+      .notice=notice
+      #header
+        %h1
+          %img{:src => '/assets/rails.png', :alt => ''}
+          coming soon! 
+      = yield
