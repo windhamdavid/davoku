@@ -1,4 +1,10 @@
 Davoku::Application.routes.draw do
+  root :to => 'pages#home'
+  match '/auth/:provider/callback', :to => 'sessions#callback'
+  match 'about', :to => 'pages#about'
+  match 'stream', :to => 'pages#stream'
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

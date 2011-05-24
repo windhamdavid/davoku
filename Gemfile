@@ -6,7 +6,16 @@ gem 'rails', '3.1.0.beta1'
 # Bundle edge Rails instead:
 # gem 'rails',     :git => 'git://github.com/rails/rails.git'
 
+gem 'sqlite3'
 #gem 'mysql'
+
+# Use unicorn as the web server
+# gem 'unicorn'
+
+# Deploy with Capistrano
+# gem 'capistrano'
+
+gem 'sprockets', '2.0.0.beta.2'
 
 # Asset template engines
 gem 'sass'
@@ -19,6 +28,7 @@ gem 'uglifier'
 gem 'jquery-rails'
 
 # gem 'ruby-debug19', :require => 'ruby-debug'
+gem 'sqlite3-ruby', :require => 'sqlite3'
 
 group :test do
   # Pretty printed test output
