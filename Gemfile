@@ -29,7 +29,7 @@ gem 'json_pure'
 gem 'json'
 gem 'multi_json'
 gem 'coffee-script'
-#gem 'uglifier'
+gem 'uglifier'
 
 gem 'jquery-rails'
 
