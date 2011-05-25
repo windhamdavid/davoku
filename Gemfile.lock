@@ -103,6 +103,9 @@ GEM
     turn (0.8.2)
       ansi (>= 1.2.2)
     tzinfo (0.3.27)
+    uglifier (0.5.2)
+      execjs (>= 0.3.0)
+      multi_json
 
 PLATFORMS
   ruby
@@ -123,3 +126,4 @@ DEPENDENCIES
   sqlite3-ruby
   therubyracer-heroku (= 0.8.1.pre3)
   turn
+  uglifier
