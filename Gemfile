@@ -19,7 +19,9 @@ gem 'sprockets', '2.0.0.beta.2'
 
 group :production do
   gem 'therubyracer-heroku', '0.8.1.pre3'
+  gem 'pg', :require => 'pg'
 end
+
 
 # Asset template engines
 gem 'sass'
@@ -27,7 +29,7 @@ gem 'json_pure'
 gem 'json'
 gem 'multi_json'
 gem 'coffee-script'
-gem 'uglifier'
+#gem 'uglifier'
 
 gem 'jquery-rails'
 
